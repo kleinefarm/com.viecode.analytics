@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/option.xsd">
+	<import>
+		<categories>
+			<category name="analytics">
+				<parent>general</parent>
+			</category>
+		</categories>
+	
+		<options>
+			<option name="analytics_enable_google">
+				<categoryname>analytics</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue><![CDATA[0]]></defaultvalue>
+				<enableoptions>analytics_google_account,analytics_google_domain_name</enableoptions>
+			</option>
+			<option name="analytics_google_account">
+				<categoryname>analytics</categoryname>
+				<optiontype>text</optiontype>
+			</option>
+			<option name="analytics_google_domain_name">
+				<categoryname>analytics</categoryname>
+				<optiontype>text</optiontype>
+			</option>
+		</options>
+	</import>
+</data>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="com.viecode.analytics" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
+	<packageinformation>
+		<packagename>Web Analytics Integration</packagename>
+		<packagedescription></packagedescription>
+		<plugin>com.woltlab.wcf</plugin>
+		<version>1.0.0 Alpha \build</version>
+		<date>\today</date>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>VieCode</author>
+		<authorurl>http://www.viecode.com</authorurl>
+	</authorinformation>
+
+	<requiredpackages>
+		<requiredpackage minversion="2.0.0 Beta 1">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<instruction type="language">language/*.xml</instruction>
+		<instruction type="option">option.xml</instruction>
+		<instruction type="templateListener">templateListener.xml</instruction>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.0.0 Alpha *">
+		<instruction type="language">language/*.xml</instruction>
+		<instruction type="option">option.xml</instruction>
+		<instruction type="templateListener">templateListener.xml</instruction>
+	</instructions>
+</package>

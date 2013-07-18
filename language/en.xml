@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="en">
+
+	<category name="wcf.acp.option">
+		<!-- NEW --><item name="wcf.acp.option.analytics_enable_google"><![CDATA[Google Analytics]]></item>
+		<!-- NEW --><item name="wcf.acp.option.analytics_enable_google.description"><![CDATA[Durch Aktivierung dieser Option kann Google Analytics für Ihre Seite aktiviert werden.]]></item>
+		<!-- NEW --><item name="wcf.acp.option.analytics_google_account"><![CDATA[Account]]></item>
+		<!-- NEW --><item name="wcf.acp.option.analytics_google_account.description"><![CDATA[Geben Sie hier Ihre Google Analytics Tracking-ID (z.B. „UA-12345678-1“) ein.]]></item>
+		<!-- NEW --><item name="wcf.acp.option.analytics_google_domain_name"><![CDATA[Domain Name]]></item>
+		<!-- NEW --><item name="wcf.acp.option.analytics_google_domain_name.description"><![CDATA[Geben Sie hier den Namen der Domain ein (z.B. „viecode.com“).]]></item>
+		<!-- NEW --><item name="wcf.acp.option.category.analytics"><![CDATA[Web Analytics]]></item>
+		<!-- NEW --><item name="wcf.acp.option.category.analytics.description"><![CDATA[]]></item>
+	</category>
+
+</language>
