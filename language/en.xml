@@ -2,14 +2,14 @@
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="en">
 
 	<category name="wcf.acp.option">
-		<!-- NEW --><item name="wcf.acp.option.analytics_enable_google"><![CDATA[Google Analytics]]></item>
-		<!-- NEW --><item name="wcf.acp.option.analytics_enable_google.description"><![CDATA[Durch Aktivierung dieser Option kann Google Analytics für Ihre Seite aktiviert werden.]]></item>
-		<!-- NEW --><item name="wcf.acp.option.analytics_google_account"><![CDATA[Account]]></item>
-		<!-- NEW --><item name="wcf.acp.option.analytics_google_account.description"><![CDATA[Geben Sie hier Ihre Google Analytics Tracking-ID (z.B. „UA-12345678-1“) ein.]]></item>
-		<!-- NEW --><item name="wcf.acp.option.analytics_google_domain_name"><![CDATA[Domain Name]]></item>
-		<!-- NEW --><item name="wcf.acp.option.analytics_google_domain_name.description"><![CDATA[Geben Sie hier den Namen der Domain ein (z.B. „viecode.com“).]]></item>
-		<!-- NEW --><item name="wcf.acp.option.category.analytics"><![CDATA[Web Analytics]]></item>
-		<!-- NEW --><item name="wcf.acp.option.category.analytics.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.analytics_enable_google"><![CDATA[Google Analytics]]></item>
+		<item name="wcf.acp.option.analytics_enable_google.description"><![CDATA[If you enable this option, data from you site can be gathered by Google Analytics.]]></item>
+		<item name="wcf.acp.option.analytics_google_account"><![CDATA[Account]]></item>
+		<item name="wcf.acp.option.analytics_google_account.description"><![CDATA[Enter your Google Analytics Tracking-ID (e.g. „UA-12345678-1“) here.]]></item>
+		<item name="wcf.acp.option.analytics_google_domain_name"><![CDATA[Domain Name]]></item>
+		<item name="wcf.acp.option.analytics_google_domain_name.description"><![CDATA[Enter here the the adress of your site (e.g. „viecode.com“). If you want to gather data for subdomains as well, leave this option blank.]]></item>
+		<item name="wcf.acp.option.category.analytics"><![CDATA[Web Analytics]]></item>
+		<item name="wcf.acp.option.category.analytics.description"><![CDATA[]]></item>
 	</category>
 
 </language>
