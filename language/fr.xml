@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="fr">
+
+<category name="wcf.acp.option">
+<item name="wcf.acp.option.analytics_enable_google"><![CDATA[Google Analytics]]></item>
+<item name="wcf.acp.option.analytics_enable_google.description"><![CDATA[Si vous activez cette option, les données de votre site peuvent être collectées par Google Analytics.]]></item>
+<item name="wcf.acp.option.analytics_google_account"><![CDATA[Compte]]></item>
+<item name="wcf.acp.option.analytics_google_account.description"><![CDATA[Entrez le Tracking-ID ici (e.g. „UA-12345678-1“).]]></item>
+<item name="wcf.acp.option.analytics_google_domain_name"><![CDATA[Nom de domaine]]></item>
+<item name="wcf.acp.option.analytics_google_domain_name.description"><![CDATA[Entrez ici l'adresse de votre site (e.g. „viecode.com“). Si vous souhaitez recueillir des données pour les sous-domaines aussi, laissez cette option vide.]]></item>
+<item name="wcf.acp.option.category.analytics"><![CDATA[Web Analytics]]></item>
+<item name="wcf.acp.option.category.analytics.description"><![CDATA[]]></item>
+</category>
+
+</language>
