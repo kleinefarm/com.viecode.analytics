@@ -1,5 +1,5 @@
 {hascontent}
-	<script type="text/javascript">
+	<script data-relocate="true">
 		//<![CDATA[
 		{content}
 			{if ANALYTICS_ENABLE_GOOGLE}
